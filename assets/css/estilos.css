@@ -303,6 +303,7 @@ section{padding-block:var(--seccion)}
 
   .servicios-eje{grid-template-columns:1fr 1fr;gap:var(--s6) var(--s4)}
   .servicios-foto{grid-column:1/-1;grid-row:1;width:min(100%,360px);justify-self:center}
+  .servicios-foto img{aspect-ratio:1}
   .servicios-col:first-child .servicio{text-align:left;justify-items:start}
   .pie-columnas{grid-template-columns:repeat(2,1fr)}
   .cassia-rejilla{grid-template-columns:1fr}
@@ -329,7 +330,6 @@ section{padding-block:var(--seccion)}
   .mas-perros{margin-top:var(--s4)}
   section{padding-block:var(--s12)}
   /* servicios: foto apaisada y cuatro filas compactas con el icono a la izquierda */
-  .servicios-foto img{aspect-ratio:4/3;object-position:50% 30%}
   .servicios-col{gap:var(--s4)}
   .servicio,.servicios-col:first-child .servicio{grid-template-columns:44px 1fr;column-gap:var(--s2);row-gap:2px;text-align:left;justify-items:start;align-items:start}
   .servicio .icono{grid-row:1/3;width:36px;height:36px;margin:2px 0 0}
